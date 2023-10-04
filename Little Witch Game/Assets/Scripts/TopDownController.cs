@@ -7,7 +7,7 @@ public class TopDownController : MonoBehaviour
 
     public Rigidbody2D body;
     public SpriteRenderer spriteRenderer;
-    public List<Sprite> rSprites, lSprites, lastSprites;
+    public List<Sprite> rightSprites, leftSprites, upSprites, downSprites;
     public float walkSpeed, frameRate;
     float x, y, idleTime;
     Vector2 direction;
@@ -30,12 +30,10 @@ public class TopDownController : MonoBehaviour
             int totalFrames = (int)(playtime * frameRate);
             int frame = totalFrames % sprites.Count;
             spriteRenderer.sprite = sprites[frame];
-            lastSprites = sprites;
         }
         else
         {
             idleTime = Time.time;
-            spriteRenderer.sprite = lastSprites[0];
         }
     }
 
@@ -45,20 +43,21 @@ public class TopDownController : MonoBehaviour
 
         if (direction.x > 0)
         {
-            selectedSprites = rSprites;
+            selectedSprites = rightSprites;
         }
         else if (direction.x < 0)
         {
-            selectedSprites = lSprites;
+            selectedSprites = leftSprites;
         }
-        else if (direction.y != 0)
+        else if (direction.y > 0)
         {
-            if (lastSprites != null)
-            {
-                selectedSprites = lastSprites;
-
-            }
+            selectedSprites = upSprites;
         }
+        else if (direction.y < 0)
+        {
+            selectedSprites = downSprites;
+        }
+
 
 
         return selectedSprites;
