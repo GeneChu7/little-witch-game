@@ -137,8 +137,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6d11266fc0578594da705cd950c1f193
-      internalID: 1583100894
+      spriteID: 99cae379d36e7494a8f87ec2f3159dc4
+      internalID: -1228685995
       vertices: []
       indices: 
       edges: []
@@ -158,8 +158,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38c3f4eda9425aa47a6176d891ef5e3c
-      internalID: -159320385
+      spriteID: e6100981636352d46b3cd572152d7b42
+      internalID: 1867162831
       vertices: []
       indices: 
       edges: []
@@ -179,8 +179,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8cce3a9cd4fb05428af7b901365708a
-      internalID: -409442048
+      spriteID: 8a0008340b390f147a93044c6b0b35f9
+      internalID: 2005576773
       vertices: []
       indices: 
       edges: []
@@ -196,9 +196,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Sprite_Downwalk_Mary_0: 1583100894
-      Sprite_Downwalk_Mary_1: -159320385
-      Sprite_Downwalk_Mary_2: -409442048
+      Sprite_Downwalk_Mary_0: -1228685995
+      Sprite_Downwalk_Mary_1: 1867162831
+      Sprite_Downwalk_Mary_2: 2005576773
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

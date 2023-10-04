@@ -266,11 +266,14 @@ MonoBehaviour:
   upSprites:
   - {fileID: 525248615, guid: deb57c5382066c54f81e3875f6f5d65c, type: 3}
   - {fileID: -823211608, guid: deb57c5382066c54f81e3875f6f5d65c, type: 3}
+  - {fileID: 525248615, guid: deb57c5382066c54f81e3875f6f5d65c, type: 3}
   - {fileID: -828402247, guid: deb57c5382066c54f81e3875f6f5d65c, type: 3}
   downSprites:
-  - {fileID: 1583100894, guid: b48dcf3b82cf28345b7d820e9f66c35a, type: 3}
-  - {fileID: -159320385, guid: b48dcf3b82cf28345b7d820e9f66c35a, type: 3}
-  - {fileID: -409442048, guid: b48dcf3b82cf28345b7d820e9f66c35a, type: 3}
+  - {fileID: -1228685995, guid: b48dcf3b82cf28345b7d820e9f66c35a, type: 3}
+  - {fileID: 1867162831, guid: b48dcf3b82cf28345b7d820e9f66c35a, type: 3}
+  - {fileID: -1228685995, guid: b48dcf3b82cf28345b7d820e9f66c35a, type: 3}
+  - {fileID: 2005576773, guid: b48dcf3b82cf28345b7d820e9f66c35a, type: 3}
+  lastSprites: []
   walkSpeed: 1
   frameRate: 6
 --- !u!61 &187722461
