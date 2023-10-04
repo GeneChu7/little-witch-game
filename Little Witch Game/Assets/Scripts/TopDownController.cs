@@ -56,6 +56,7 @@ public class TopDownController : MonoBehaviour
             if (lastSprites != null)
             {
                 selectedSprites = lastSprites;
+
             }
         }
 
